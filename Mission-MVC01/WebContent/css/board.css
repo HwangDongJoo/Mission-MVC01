@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+table, th, td{
+	border: 1px solid #d4e0ee;
+	border-collapse: collapse;
+	font-family: NanumSquareR;
+}
+
+th, td{
+	padding: 5px;
+}
+
+table.list th {
+	background: #e6edf5;
+	color: #4f76a3;
+}
+/* 
+tr:nth-child(even){
+	background-color: #f7f9fc;
+}
+ */
+ 
+ tr.even {
+	background-color: #f7f9fc;
+ }
+ 
+ table tr:hover {
+ 	background-color: #fefdcf;
+ }
+ 
+ td a:link, td a:visited {
+ 	color: #718abe;
+ 	text-decoration: none;
+ }
+ 
+ td a:hover {
+ 	text-decoration: underline;
+ }
